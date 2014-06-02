@@ -5,6 +5,9 @@ def romanize(input)
   output = ' '
   until input == 0
     romkeys.each do |key, value|
+      if input >= key
+
+      end
     end
   end
   return output
