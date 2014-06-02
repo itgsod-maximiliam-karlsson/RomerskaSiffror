@@ -1,3 +1,16 @@
+# romanize: Takes a number as input and translate it to roman numbers.
+#
+# romkeys  - An hash that have numbers pointing to roman numbers.
+# input  - The input of the user.
+# output - The string that will be returned.
+#
+# Examples
+#
+#   romanize(5)
+#   # => 'V'
+#
+# Returns the translated number.
+
 #This funktion will take a number as input and transform it to roman numerals one example of this: If the input was 400 this will result as 'CD'.
 def romanize(input)
 
