@@ -6,7 +6,9 @@ def romanize(input)
   until input == 0
     romkeys.each do |key, value|
       if input >= key
-
+        output += value
+        input -= key
+        break
       end
     end
   end
