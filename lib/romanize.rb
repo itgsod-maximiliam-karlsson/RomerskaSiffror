@@ -14,9 +14,7 @@
 #This funktion will take a number as input and transform it to roman numerals one example of this: If the input was 400 this will result as 'CD'.
 def romanize(input)
 
-  #If input are under 0 show a error.
   raise ArgumentError, 'can not encode negative number' if input < 0
-  #If input are equals to 0 show a error.
   raise ArgumentError, 'can not encode zero' if input == 0
 
   #Creating a Hash that pointing different numbers to different characters.
